@@ -5,13 +5,13 @@ There are two other data sets (1 test / 1 validation) that include marked exampl
 They were marked by hand, so should not be taken as "fact" - but simple very probably examples.
 
 Column descriptions
-The userID is a database surrogate for a GUID.\n
+The userID is a database surrogate for a GUID.
 IndieToMajorRatio is a ratio of usage on content from "independent labels" / "major labels".  The theory being that independent music
-is more likely targeted for abuse\n
-totUsage = the users total usage count on that day \n
-MaxSingleAlbumUse = Of all albums played by the user on that day, the stream count of the album achieving the most usage by a user\n
-MaxSingleTrackUse = Of all tracks played by the user on that day, the stream count of the track achieving the most usage by a user\n
-MaxSingleArtistUse = Of all Artists played by the user on that day, the stream count of the Artist achieving the most usage by a user\n
+is more likely targeted for abuse
+totUsage = the users total usage count on that day 
+MaxSingleAlbumUse = Of all albums played by the user on that day, the stream count of the album achieving the most usage by a user
+MaxSingleTrackUse = Of all tracks played by the user on that day, the stream count of the track achieving the most usage by a user
+MaxSingleArtistUse = Of all Artists played by the user on that day, the stream count of the Artist achieving the most usage by a user
 
 This data was used to detect anomalous users by way of a gaussian distribution model.  I no longer have access to the source data to 
 grab new metrics / aggregate differently, but would perhaps choose more / different measures if it were to be done again.
