@@ -25,6 +25,7 @@ MaxSingleArtistUse = Of all Artists played by the user on that day, the stream c
 If you didn't read the linked presentation, this data was used to detect anomalous users ('abusive' usage) by way of a gaussian distribution model.
 I no longer have access to the source data to grab new metrics / aggregate differently, but would perhaps choose more / different measures if it were to be done again.
 
+Note - the training data set includes all of the known anomalies - there is a feature if you want to trim the dataset by # standard deviations to get what is considered 'normal'
 The .py file can be used as a module in python3.
 required packages include numpy and scipy
 The data sets are imported in the comments at the bottom of the .py file.
