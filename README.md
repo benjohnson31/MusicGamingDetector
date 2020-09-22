@@ -4,8 +4,9 @@
 
 Data & Code Description:
 There are three data files come from a streaming music company.  The data files summarize a single users streaming music consumption / usage on the dates mentioned in the filename.  
-There are two other data sets (1 test / 1 validation) that include marked examples of anomalous usage.  
-They were marked by hand, so should not be taken as "fact" - but instead as very likely examples.
+The Dec10 data is a 10,000 user sample (of 1 million or so active users) for a single day used to train the model.
+There are two other data sets (1 test / 1 validation) that include marked examples of anomalous usage. 
+They were marked by hand, so should not be taken as "fact" - but instead as very likely examples marked in a short amount of time (I'd like to think decent quality).
 
 Column descriptions
 The userID is a database surrogate for a GUID.
