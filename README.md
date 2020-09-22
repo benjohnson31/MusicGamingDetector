@@ -1,5 +1,8 @@
 # MusicGamingDetector
-Project Description:
+
+[**Problem Statement & Project Summary**](https://docs.google.com/presentation/d/15OxRR7H1gkSy3UKbzwC-6b90n9tONWeCWuAs_4Wf42I/edit#slide=id.g99f8faf5dc_0_93)
+
+Data & Code Description:
 There are three data files come from a streaming music company.  The data files summarize a single users streaming music consumption / usage on the dates mentioned in the filename.  
 There are two other data sets (1 test / 1 validation) that include marked examples of anomalous usage.  
 They were marked by hand, so should not be taken as "fact" - but simple very probably examples.
