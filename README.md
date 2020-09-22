@@ -19,7 +19,7 @@ is more likely targeted for abuse\
 totUsage = the users total usage count on that day \
 MaxSingleAlbumUse = Of all albums played by the user on that day, the stream count of the album achieving the most usage by a user\
 MaxSingleTrackUse = Of all tracks played by the user on that day, the stream count of the track achieving the most usage by a user\
-MaxSingleArtistUse = Of all Artists played by the user on that day, the stream count of the Artist achieving the most usage by a user\
+MaxSingleArtistUse = Of all Artists played by the user on that day, the stream count of the Artist achieving the most usage by a user
 
 **Model Description**\
 If you didn't read the linked presentation, this data was used to detect anomalous users ('abusive' usage) by way of a gaussian distribution model.
